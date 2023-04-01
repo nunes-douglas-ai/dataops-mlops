@@ -1,0 +1,46 @@
+name: Release version, Build and Push Docker Image
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    concurrency: release
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Python Semantic Release
+        uses: relekang/python-semantic-release@master
+        with:
+          github_token: ${{ secrets.TOKEN_GITHUB }}
+  build-and-push:
+    runs-on: ubuntu-latest
+    needs: release
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME  }}
+          password: ${{ secrets.DOCKERHUB_TOKEN  }}
+      - name: Get latest tag
+        run: |
+          git fetch --tags
+          latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
+          echo ::set-env name=IMAGE_TAG::$latest_tag
+          echo "Latest tag: $latest_tag"
+      - name: Build Docker Image
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ github.sha }} -t ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest -t ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }} .
+        env:
+          IMAGE_NAME: ${{ github.repository }}
+          IMAGE_TAG: ${{ env.latest_tag }}
+      - name: Push Docker Image
+        run: docker push --all-tags ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+        env:
+          IMAGE_NAME: ${{ github.repository }}
