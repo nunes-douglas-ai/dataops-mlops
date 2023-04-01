@@ -1,0 +1,2 @@
+-r web/requirements.txt
+python-semantic-release==7.33.2
