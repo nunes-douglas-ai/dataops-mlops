@@ -35,6 +35,6 @@ jobs:
           git fetch --tags
           latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
           echo "Latest tag: $latest_tag"
-          docker build -t ${{ vars.FULL_IMAGE_NAME_PRODUCTION }}:${{ github.sha }} -t ${{ vars.FULL_IMAGE_NAME_PRODUCTION }}:latest -t ${{ vars.FULL_IMAGE_NAME_PRODUCTION }}:$latest_tag .
+          docker build -t ${{ vars.FULL_IMAGE_NAME }}:${{ github.sha }} -t ${{ vars.FULL_IMAGE_NAME }}:latest -t ${{ vars.FULL_IMAGE_NAME }}:$latest_tag .
       - name: Push Docker Image
-        run: docker push --all-tags ${{ vars.FULL_IMAGE_NAME_PRODUCTION }}
+        run: docker push --all-tags ${{ vars.FULL_IMAGE_NAME }}
