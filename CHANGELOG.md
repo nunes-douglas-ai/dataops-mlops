@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.3 (2023-04-02)
+### Fix
+* Fix current version ([`2592433`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/2592433baba54912b9e0d6250073e0f2abd8ffb7))
+* Disable custom commit message ([`c9d6b5f`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/c9d6b5f5ccf904424ba3aa4b33e79ce81ebc6379))
+* Disable pre-release ([`33327f4`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/33327f47ab6e087b03e769b345367f60539218c4))
+* Fix pre-release commit message ([`1b617be`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/1b617be89c2b8545654b398211ff0231cfb23646))
+
 ## v0.4.2 (2023-04-02)
 ### Fix
 * Fix pre-release step ([`1d9d321`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/1d9d3213095ce577f5c36648cce9c75c07ac7839))
