@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.0 (2023-04-02)
+### Feature
+* Add Azure deploy ([`773c456`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/773c456042f44b7a280d5d73a184f066ac3d677d))
+
 ## v0.2.1 (2023-04-02)
 ### Fix
 * Revert "feat: Add docker-composer files for prod and staging and update CI" ([`47a031b`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/47a031b691be40c56e185d8dfba1fd647a21da82))
