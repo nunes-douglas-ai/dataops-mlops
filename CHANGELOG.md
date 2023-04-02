@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.2 (2023-04-02)
+### Fix
+* Fix pre-release step ([`1d9d321`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/1d9d3213095ce577f5c36648cce9c75c07ac7839))
+
 ## v0.4.1 (2023-04-02)
 ### Fix
 * Fix pre-release step ([`de688b9`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/de688b952a55298798892d1def5141d22fe8dea3))

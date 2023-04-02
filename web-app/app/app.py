@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from controllers.hello_controller import hello_router
 
-__version__ = "0.4.1"
+__version__ = "0.4.2"
 
 app = FastAPI(
     title="Meu projeto de DataOps e MlOps",
