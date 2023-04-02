@@ -50,7 +50,7 @@ jobs:
         uses: relekang/python-semantic-release@master
         with:
           github_token: ${{ secrets.TOKEN_GITHUB }}
-          additional_options: --prerelease
+          additional_options: --prerelease -D commit_subject="Preparing next version {version}"
   deploy:
     runs-on: ubuntu-latest
     needs: build-and-push
