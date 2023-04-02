@@ -23,6 +23,6 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN  }}
       - name: Build Docker Image
         working-directory: ./web-app
-        run: docker build -t ${{ vars.FULL_IMAGE_NAME }}:${{ github.sha }} -t ${{ vars.FULL_IMAGE_NAME }}:${{ github.head_ref }} .
+        run: docker build -t ${{ vars.FULL_IMAGE_NAME_STAGING }}:${{ github.sha }} -t ${{ vars.FULL_IMAGE_NAME_STAGING }}:${{ github.head_ref }} .
       - name: Push Docker Image
-        run: docker push --all-tags ${{ vars.FULL_IMAGE_NAME }}
+        run: docker push --all-tags ${{ vars.FULL_IMAGE_NAME_STAGING }}
