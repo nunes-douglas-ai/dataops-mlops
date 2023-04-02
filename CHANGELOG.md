@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.0 (2023-04-02)
+### Feature
+* Add first unit test ([`b51a31c`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/b51a31c7abe018b29351d8ed75ddb7b2fed734cd))
+
 ## v0.3.0 (2023-04-02)
 ### Feature
 * Add Azure deploy ([`773c456`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/773c456042f44b7a280d5d73a184f066ac3d677d))
