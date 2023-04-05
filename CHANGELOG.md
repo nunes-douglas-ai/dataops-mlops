@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.0 (2023-04-05)
+### Feature
+* Add basic covid pre diagnostics ([`6c671f5`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/6c671f590c61ba98e29f2ab43b9fd89bafa96f94))
+
 ## v0.4.3 (2023-04-02)
 ### Fix
 * Fix current version ([`2592433`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/2592433baba54912b9e0d6250073e0f2abd8ffb7))
