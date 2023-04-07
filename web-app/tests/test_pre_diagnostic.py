@@ -10,7 +10,7 @@ class TestPreDiagnosticService(unittest.TestCase):
 
     def test_pre_diagnostic_tem_febre(self):
         input_request = "Estou com febre"
-        expected_response = "Você apresenta diversos sintomas de Covid"
+        expected_response = "positivo"
 
         result_response = self.service.get_pre_diagnostic(input_request)
 
@@ -18,13 +18,13 @@ class TestPreDiagnosticService(unittest.TestCase):
 
     def test_pre_diagnostic_case(self):
         input_request = "Estou com FEBRE"
-        expected_response = "Você apresenta diversos sintomas de Covid"
+        expected_response = "positivo"
 
         result_response = self.service.get_pre_diagnostic(input_request)
 
         self.assertEqual(expected_response, result_response)
         input_request = "Estou com febre"
-        expected_response = "Você apresenta diversos sintomas de Covid"
+        expected_response = "positivo"
 
         result_response = self.service.get_pre_diagnostic(input_request)
 
@@ -32,15 +32,15 @@ class TestPreDiagnosticService(unittest.TestCase):
 
     def test_pre_diagnostic_tem_tosse_seca(self):
         input_request = "Estou com Tosse seca"
-        expected_response = "Você apresenta diversos sintomas de Covid"
+        expected_response = "positivo"
 
         result_response = self.service.get_pre_diagnostic(input_request)
 
         self.assertEqual(expected_response, result_response)
 
-    def test_pre_diagnostic_tem_febre(self):
+    def test_pre_diagnostic_sem_sintomas(self):
         input_request = "Estou bem"
-        expected_response = "Você não apresenta sintomas de Covid"
+        expected_response = "negativo"
 
         result_response = self.service.get_pre_diagnostic(input_request)
 
