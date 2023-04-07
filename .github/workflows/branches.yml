@@ -59,4 +59,6 @@ jobs:
           cpu: 1
           memory: 0.5
           location: 'west us'
-          environment-variables: port=80 log_level=debug workers=1
+          environment-variables: port=80 log_level=debug workers=1 mongo_database_name=${{ vars.MONGO_DATABASE_NAME }} mongo_export_collection_name=${{ vars.MONGO_EXPORT_COLLECTION_NAME_STAGING }}
+          secure-environment-variables: mongo_host=${{ secrets.MONGO_HOST }} mongo_port=${{ secrets.MONGO_PORT }} mongo_user=${{ secrets.MONGO_USER }} mongo_pass=${{ secrets.MONGO_PASS }}
+
