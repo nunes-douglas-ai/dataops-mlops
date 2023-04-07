@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v1.0.0 (2023-04-07)
+### Fix
+* Simplify pre-diagnostic response ([#21](https://github.com/nunes-douglas-ai/dataops-mlops/issues/21)) ([`627c712`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/627c712caaec9f6fa3dcb3bc36b1ab582612e9a0))
+
+### Breaking
+* Change to single words positivo and negativo ([`627c712`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/627c712caaec9f6fa3dcb3bc36b1ab582612e9a0))
+
 ## v0.6.0 (2023-04-07)
 ### Feature
 * Add data export ([`4fc744a`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/4fc744a1cb7fed84b02d60d63a7a2aa796d63d18))
