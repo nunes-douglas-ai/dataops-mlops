@@ -28,7 +28,10 @@ class DataExporter(BaseHTTPMiddleware):
 
     async def dispatch(self, request, call_next):
         await self.set_body(request)
-        json_body = await request.json()
+        try:
+            json_body = await request.json()
+        except:
+            json_body = {}
         response = await call_next(request)
         await self.export_request(request, response, json_body)
         return response
@@ -41,6 +44,12 @@ class DataExporter(BaseHTTPMiddleware):
             "response": formatted_response,
             "timestamp": datetime.now()
         }
+        content_type = "text/html; charset=utf-8"
+        if "headers" in result["response"] and "content-type" in result["response"]["headers"]:
+            content_type = result["response"]["headers"]["content-type"]
+        if content_type != "application/json":
+            app_logger.info("Skipping export of request %s", result)
+            return
         app_logger.info("Exporting request %s", result)
         try:
             self.repository.add_request(result)
