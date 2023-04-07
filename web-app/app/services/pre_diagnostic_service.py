@@ -1,4 +1,4 @@
-from entities.pre_diagnostic_entities import PreDiagnosticResponse
+from entities.pre_diagnostic_entities import PreDiagnosticResponse, AvailableOutputs
 
 
 class PreDiagnosticService:
@@ -21,8 +21,8 @@ class PreDiagnosticService:
     def get_pre_diagnostic(self, input_request):
         for sympton in self.symptons:
             if sympton.lower() in input_request.lower():
-                return "Você apresenta diversos sintomas de Covid"
-        return "Você não apresenta sintomas de Covid"
+                return AvailableOutputs.POSITIVO.value
+        return AvailableOutputs.NEGATIVO.value
 
     def process_diagnostic(self, request):
         symptons = request.text
