@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.2.0 (2023-04-08)
+### Feature
+* Add optional extra_args for data analysis and sample data ([#25](https://github.com/nunes-douglas-ai/dataops-mlops/issues/25)) ([`047c839`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/047c839452af1729a9ed181c69050a1967eef760))
+
 ## v1.1.0 (2023-04-08)
 ### Feature
 * Add annotated data ([#23](https://github.com/nunes-douglas-ai/dataops-mlops/issues/23)) ([`2339d52`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/2339d5202ffa63fe67e29c4efc7cd5cb83fcd1ec))
