@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v1.1.0 (2023-04-08)
+### Feature
+* Add annotated data ([#23](https://github.com/nunes-douglas-ai/dataops-mlops/issues/23)) ([`2339d52`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/2339d5202ffa63fe67e29c4efc7cd5cb83fcd1ec))
+* Add sample data generation ([`a8ac3de`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/a8ac3ded1ae80ab8129cb423c9c0bec5561a02c6))
+
+### Fix
+* Fix response body format ([#24](https://github.com/nunes-douglas-ai/dataops-mlops/issues/24)) ([`c41c089`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/c41c089b649df54ebe5c368a54369c14399b182f))
+
 ## v1.0.0 (2023-04-07)
 ### Fix
 * Simplify pre-diagnostic response ([#21](https://github.com/nunes-douglas-ai/dataops-mlops/issues/21)) ([`627c712`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/627c712caaec9f6fa3dcb3bc36b1ab582612e9a0))
