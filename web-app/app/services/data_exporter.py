@@ -1,3 +1,4 @@
+import json
 from datetime import datetime
 
 from starlette.concurrency import iterate_in_threadpool
@@ -88,6 +89,9 @@ class DataExporter(BaseHTTPMiddleware):
         response.body_iterator = iterate_in_threadpool(iter(response_body))
         decoded_body = response_body[0].decode()
 
-        result["body"] = decoded_body
+        try:
+            result["body"] = json.loads(decoded_body)
+        except Exception:
+            result["body"] = {}
 
         return result
