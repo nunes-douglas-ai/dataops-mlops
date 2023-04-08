@@ -1,0 +1,77 @@
+ID,Name,Text,Version,Expected,Timestamp,Diagnostic
+6431b74b1949521432593151,SimpleMatchApproach,Ultimamente estou com muita dor de garganta e dor de cabeça. Também sinto um pouco de náusea e falta de apetite.,"""1.1.0""",positivo,2023-04-08T15:49:47.051Z,positivo
+6431b74b619d1d149681b8fa,SimpleMatchApproach,Tosse seca,"""1.1.0""",positivo,2023-04-08T15:49:47.036Z,positivo
+6431b74b619d1d149681b8f9,SimpleMatchApproach,"tô com uma tosse chata, que tá me incomodando bastante e sinto como se faltasse o ar","""1.1.0""",positivo,2023-04-08T15:49:47.021Z,negativo
+6431b74b576bc25fb5e5e6ae,SimpleMatchApproach,"tô com uma dorzinha no corpo, e parece que tá subindo uma febrinha, mas nada demais","""1.1.0""",positivo,2023-04-08T15:49:47.005Z,negativo
+6431b7490ec2c49256b7e77e,SimpleMatchApproach,"Tive diarreia e vômitos por alguns dias seguidos. Agora estou me sentindo um pouco melhor, mas ainda sinto um pouco de fraqueza e cansaço.","""1.1.0""",positivo,2023-04-08T15:49:45.024Z,positivo
+6431b7491949521432593150,SimpleMatchApproach,"Tive uma dor na mao hoje de manha, mas ja passou","""1.1.0""",negativo,2023-04-08T15:49:45.023Z,negativo
+6431b74952134d162a040c89,SimpleMatchApproach,"Tive um pouco de dor de estômago depois de comer algo pesado, mas passou logo em seguida. Nenhum outro sintoma a relatar.","""1.1.0""",negativo,2023-04-08T15:49:45.021Z,negativo
+6431b749194952143259314f,SimpleMatchApproach,"Tive febre e tosse seca nos últimos dias, mas agora estou me sentindo melhor.","""1.1.0""",positivo,2023-04-08T15:49:45.021Z,positivo
+6431b7490ec2c49256b7e77d,SimpleMatchApproach,Tenho um ponto vermelho na pele e coça bastante,"""1.1.0""",negativo,2023-04-08T15:49:45.019Z,negativo
+6431b74938fb1cc25a87f9ba,SimpleMatchApproach,Tenho tido enxaqueca forte e náuseas nos últimos dias,"""1.1.0""",positivo,2023-04-08T15:49:45.004Z,negativo
+6431b749619d1d149681b8f8,SimpleMatchApproach,Tenho tido muita vontade de urinar com frequência.,"""1.1.0""",negativo,2023-04-08T15:49:45.004Z,negativo
+6431b74838fb1cc25a87f9b9,SimpleMatchApproach,"Tá foda aqui, tô com uma tosse seca, umas dores no corpo, um pouco de dor de garganta e cansado demais.","""1.1.0""",positivo,2023-04-08T15:49:44.974Z,positivo
+6431b748619d1d149681b8f7,SimpleMatchApproach,Sinto uma pressao no ouvido e zumbidos,"""1.1.0""",negativo,2023-04-08T15:49:44.961Z,negativo
+6431b748619d1d149681b8f6,SimpleMatchApproach,Sinto uma dor forte no estômago e estou com muita azia. Também estou com um pouco de dor de cabeça e sinto um pouco de tontura.,"""1.1.0""",positivo,2023-04-08T15:49:44.959Z,positivo
+6431b74838fb1cc25a87f9b8,SimpleMatchApproach,Sinto uma dor no joelho direito desde que fiz uma caminhada longa no final de semana. Não sinto febre nem nenhum outro sintoma.,"""1.1.0""",negativo,2023-04-08T15:49:44.958Z,positivo
+6431b748576bc25fb5e5e6ad,SimpleMatchApproach,"Sinto uma coceira na pele desde ontem à noite, mas não vejo nenhuma erupção. Além disso, não tenho outros sintomas.","""1.1.0""",negativo,2023-04-08T15:49:44.942Z,negativo
+6431b74652134d162a040c88,SimpleMatchApproach,Sinto um pouco de falta de ar e cansaço ao fazer atividade física. Também estou com um pouco de dor de cabeça e dor de garganta.,"""1.1.0""",positivo,2023-04-08T15:49:42.967Z,positivo
+6431b746194952143259314e,SimpleMatchApproach,Sinto um gosto ruim na boca e estou com a barriga doendo,"""1.1.0""",negativo,2023-04-08T15:49:42.967Z,negativo
+6431b7464a76d32f84026104,SimpleMatchApproach,Sinto muita sede ultimamente e minha pele está mais ressecada que o normal.,"""1.1.0""",negativo,2023-04-08T15:49:42.966Z,negativo
+6431b746b7609d74ce5e0e64,SimpleMatchApproach,Sinto um desconforto no estômago e minha pele está coçando muito,"""1.1.0""",negativo,2023-04-08T15:49:42.951Z,negativo
+6431b74683c3518c55d21367,SimpleMatchApproach,Sinto muita dor nas articulações e dores de cabeça frequentes. Também estou com um pouco de dor de garganta e tosse.,"""1.1.0""",positivo,2023-04-08T15:49:42.935Z,positivo
+6431b746b7609d74ce5e0e63,SimpleMatchApproach,Sinto muita fadiga e dores musculares pelo corpo. Também estou com um pouco de tosse e falta de ar ao fazer esforço físico.,"""1.1.0""",positivo,2023-04-08T15:49:42.935Z,positivo
+6431b746b7609d74ce5e0e62,SimpleMatchApproach,"Sinto muita dor de cabeça e estou com uma congestão nasal terrível. Além disso, minhas pernas estão doendo muito.","""1.1.0""",positivo,2023-04-08T15:49:42.920Z,positivo
+6431b74683c3518c55d21366,SimpleMatchApproach,"sinto muita coceira no corpo, especialmente nas pernas, e tambem muita dor nas costas e nas pernas, e muita fome","""1.1.0""",negativo,2023-04-08T15:49:42.918Z,negativo
+6431b7464a76d32f84026103,SimpleMatchApproach,Sinto falta de ar e cansaço ao fazer atividades simples,"""1.1.0""",positivo,2023-04-08T15:49:42.904Z,negativo
+6431b746576bc25fb5e5e6ac,SimpleMatchApproach,Sinto muita coceira nas costas e meus olhos estão inchados,"""1.1.0""",negativo,2023-04-08T15:49:42.904Z,negativo
+6431b746b7609d74ce5e0e61,SimpleMatchApproach,"Sinto fraqueza, dor abdominal e diarreia desde ontem","""1.1.0""",positivo,2023-04-08T15:49:42.904Z,positivo
+6431b7464a76d32f84026102,SimpleMatchApproach,"sentindo mta caimbra e difuldade di iscrever, e tbm muita sonolencia durante o dia","""1.1.0""",negativo,2023-04-08T15:49:42.889Z,negativo
+6431b744576bc25fb5e5e6ab,SimpleMatchApproach,"Sabe aquela sensação de que você tá pegando uma gripe? Então, tô com febre, tosse e dor de cabeça.","""1.1.0""",positivo,2023-04-08T15:49:40.901Z,positivo
+6431b7446f627169f45e353a,SimpleMatchApproach,"Poxa, tá foda esses dias! Tô com uma dorzinha de cabeça, um pouco de tosse e umas náuseas chatas.","""1.1.0""",positivo,2023-04-08T15:49:40.901Z,negativo
+6431b7446f627169f45e3539,SimpleMatchApproach,"Perdi o paladar e o olfato, além de ter dor de cabeça","""1.1.0""",positivo,2023-04-08T15:49:40.894Z,positivo
+6431b744576bc25fb5e5e6aa,SimpleMatchApproach,Perda do paladar ou olfato,"""1.1.0""",positivo,2023-04-08T15:49:40.894Z,positivo
+6431b744310bbcba687439fa,SimpleMatchApproach,Notei uma mancha na minha pele e estou preocupado se pode ser algo grave.,"""1.1.0""",negativo,2023-04-08T15:49:40.871Z,negativo
+6431b7446f627169f45e3538,SimpleMatchApproach,Náuseas ou vômitos,"""1.1.0""",positivo,2023-04-08T15:49:40.856Z,positivo
+6431b744576bc25fb5e5e6a9,SimpleMatchApproach,Minha unha quebrou e estou preocupado se vai crescer novamente.,"""1.1.0""",negativo,2023-04-08T15:49:40.846Z,negativo
+6431b744b7609d74ce5e0e60,SimpleMatchApproach,"Minha pele está ressecada e sinto coceira nas mãos. Não tenho febre, tosse ou qualquer outro sintoma.","""1.1.0""",negativo,2023-04-08T15:49:40.842Z,positivo
+6431b7446f627169f45e3537,SimpleMatchApproach,"não tô me sentindo muito bem, tá com uma tontura e uma dor no pescoço, pode ser da cerveja ontem","""1.1.0""",negativo,2023-04-08T15:49:40.842Z,negativo
+6431b744310bbcba687439f9,SimpleMatchApproach,Minha garganta está inflamada e minhas mãos estão suando muito,"""1.1.0""",negativo,2023-04-08T15:49:40.841Z,negativo
+6431b7440ec2c49256b7e77c,SimpleMatchApproach,Minha voz está um pouco rouca há alguns dias.,"""1.1.0""",negativo,2023-04-08T15:49:40.841Z,negativo
+6431b744db7de5389fa4b465,SimpleMatchApproach,Minha barriga doi muinto e estou tonto,"""1.1.0""",negativo,2023-04-08T15:49:40.814Z,negativo
+6431b7424a76d32f84026101,SimpleMatchApproach,"Meus olhos estão lacrimejando muito e sinto uma leve irritação na garganta. Mas não tenho tosse, febre ou outros sintomas.","""1.1.0""",negativo,2023-04-08T15:49:38.822Z,positivo
+6431b742b7609d74ce5e0e5f,SimpleMatchApproach,Meu olho está inxado e sinto coceira no corpo,"""1.1.0""",negativo,2023-04-08T15:49:38.820Z,negativo
+6431b7424a76d32f84026100,SimpleMatchApproach,"meu estômago tá revirado, tô com uma diarreia e muita dor de cabeça, acho que tá tudo errado","""1.1.0""",positivo,2023-04-08T15:49:38.820Z,positivo
+6431b742194952143259314d,SimpleMatchApproach,Meus dentes doem quando como algo gelado,"""1.1.0""",negativo,2023-04-08T15:49:38.820Z,negativo
+6431b74283c3518c55d21365,SimpleMatchApproach,"Mano, tô me sentindo muito mal. Acordei com uma febre do caramba, uma dor no corpo e tosse seca.","""1.1.0""",positivo,2023-04-08T15:49:38.819Z,positivo
+6431b7426f627169f45e3536,SimpleMatchApproach,Fadiga,"""1.1.0""",positivo,2023-04-08T15:49:38.802Z,positivo
+6431b742194952143259314c,SimpleMatchApproach,"Eu perdi meu gato ontem e agora estou muito triste. Além disso, estou com dor de cabeça e tosse seca.","""1.1.0""",positivo,2023-04-08T15:49:38.791Z,positivo
+6431b74252134d162a040c87,SimpleMatchApproach,Fiz um exame de sangue e estou ansioso para saber o resultado.,"""1.1.0""",negativo,2023-04-08T15:49:38.790Z,negativo
+6431b74252134d162a040c86,SimpleMatchApproach,"fiz xixi e achei que a cor tava meio estranha, aí comecei a sentir enjoo e dor de cabeça","""1.1.0""",positivo,2023-04-08T15:49:38.789Z,positivo
+6431b742194952143259314b,SimpleMatchApproach,Febre,"""1.1.0""",positivo,2023-04-08T15:49:38.788Z,positivo
+6431b74252134d162a040c85,SimpleMatchApproach,Estou sentido muinta canseira e dores no corpo,"""1.1.0""",negativo,2023-04-08T15:49:38.772Z,negativo
+6431b7424a76d32f840260ff,SimpleMatchApproach,Estou me sentindo muito mal. Tive febre alta e dor de cabeça intensa por alguns dias. Agora estou com tosse seca e dores musculares pelo corpo.,"""1.1.0""",positivo,2023-04-08T15:49:38.740Z,positivo
+6431b7406f627169f45e3535,SimpleMatchApproach,Estou com uma congestão nasal terrível. Mal consigo respirar pelo nariz e sinto uma pressão forte no rosto. Também estou com tosse e um pouco de febre.,"""1.1.0""",positivo,2023-04-08T15:49:36.736Z,positivo
+6431b74038fb1cc25a87f9b7,SimpleMatchApproach,Estou me sentindo muito cansado e com falta de ar.,"""1.1.0""",positivo,2023-04-08T15:49:36.724Z,negativo
+6431b740619d1d149681b8f5,SimpleMatchApproach,Estou com uma forte dor de dente e minhas pernas estão cansadas,"""1.1.0""",negativo,2023-04-08T15:49:36.724Z,negativo
+6431b7406f627169f45e3534,SimpleMatchApproach,"estou com um zumbido insuportavel no ouvido esquerdo e sinto uma pressao no lado direito da cabeça, as vezes vejo coisas estranhas","""1.1.0""",negativo,2023-04-08T15:49:36.724Z,negativo
+6431b74052134d162a040c84,SimpleMatchApproach,"estou cum uma caixa no peito e as vezes dói quandu respirei fundo, e tbm sinto muito dor di dente e tontura","""1.1.0""",negativo,2023-04-08T15:49:36.721Z,negativo
+6431b74038fb1cc25a87f9b6,SimpleMatchApproach,Estou com muita tosse e um pouco de febre. Também sinto um pouco de cansaço e fraqueza.,"""1.1.0""",positivo,2023-04-08T15:49:36.706Z,positivo
+6431b740310bbcba687439f8,SimpleMatchApproach,Estou com um pouco de falta de ar e a garganta arranhando,"""1.1.0""",negativo,2023-04-08T15:49:36.706Z,negativo
+6431b740619d1d149681b8f4,SimpleMatchApproach,Estou com muita dor de ouvido e meu joelho está doendo bastante,"""1.1.0""",negativo,2023-04-08T15:49:36.706Z,negativo
+6431b7404a76d32f840260fe,SimpleMatchApproach,Estou com muita coceira no corpo e dor muscular,"""1.1.0""",positivo,2023-04-08T15:49:36.706Z,negativo
+6431b7406f627169f45e3533,SimpleMatchApproach,Estou com muita coceira na pele e sinto um pouco de dor nas articulações. Também sinto um pouco de dor de cabeça e náusea.,"""1.1.0""",positivo,2023-04-08T15:49:36.705Z,positivo
+6431b740194952143259314a,SimpleMatchApproach,Estou com dificuldades em me concentrar nos estudos.,"""1.1.0""",negativo,2023-04-08T15:49:36.678Z,negativo
+6431b740b7609d74ce5e0e5e,SimpleMatchApproach,Estou com dor de garganta e sentindo um pouco de náusea depois de comer um sanduíche estragado.,"""1.1.0""",positivo,2023-04-08T15:49:36.674Z,positivo
+6431b73e4a76d32f840260fd,SimpleMatchApproach,Dificuldade para respirar,"""1.1.0""",positivo,2023-04-08T15:49:34.649Z,positivo
+6431b73e619d1d149681b8f3,SimpleMatchApproach,Dor de cabeça,"""1.1.0""",positivo,2023-04-08T15:49:34.649Z,positivo
+6431b73e310bbcba687439f7,SimpleMatchApproach,Dores musculares,"""1.1.0""",positivo,2023-04-08T15:49:34.633Z,positivo
+6431b73e52134d162a040c83,SimpleMatchApproach,Congestão nasal,"""1.1.0""",positivo,2023-04-08T15:49:34.627Z,positivo
+6431b73e619d1d149681b8f2,SimpleMatchApproach,Dor de garganta,"""1.1.0""",positivo,2023-04-08T15:49:34.626Z,positivo
+6431b73e83c3518c55d21364,SimpleMatchApproach,Diarreia,"""1.1.0""",positivo,2023-04-08T15:49:34.626Z,positivo
+6431b73e4a76d32f840260fc,SimpleMatchApproach,Ando com muitas dores nas costas após o trabalho.,"""1.1.0""",negativo,2023-04-08T15:49:34.625Z,negativo
+6431b73e0ec2c49256b7e77b,SimpleMatchApproach,As pernas estão pesadas e sinto formigamento nos dedos,"""1.1.0""",negativo,2023-04-08T15:49:34.625Z,negativo
+6431b73e38fb1cc25a87f9b5,SimpleMatchApproach,"acho que tenho alguma coisa na gargant que ta me atrapalhando de comê, tambem sinto queimacao no estomago e diarréia as vezes","""1.1.0""",negativo,2023-04-08T15:49:34.625Z,negativo
+6431b73e6f627169f45e3532,SimpleMatchApproach,Ando preocupada com a quantidade de cabelo que estou perdendo.,"""1.1.0""",negativo,2023-04-08T15:49:34.624Z,negativo
+6431b73eb7609d74ce5e0e5d,SimpleMatchApproach,"Caramba, minha garganta tá doendo muito, tô com um mal estar horrível, umas dores no corpo e uma tosse.","""1.1.0""",positivo,2023-04-08T15:49:34.621Z,negativo
+6431b73e310bbcba687439f6,SimpleMatchApproach,Ando sentindo um desconforto abdominal após as refeições.,"""1.1.0""",negativo,2023-04-08T15:49:34.619Z,negativo
