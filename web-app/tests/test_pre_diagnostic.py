@@ -1,12 +1,15 @@
 import unittest
 
+from configs.app_configs import AppSettings
 from services.pre_diagnostic_service import PreDiagnosticService
 
 
 class TestPreDiagnosticService(unittest.TestCase):
 
     def setUp(self) -> None:
-        self.service = PreDiagnosticService()
+        self.app_setings = AppSettings()
+        self.app_setings.models_path = "models"
+        self.service = PreDiagnosticService(self.app_setings)
 
     def test_pre_diagnostic_tem_febre(self):
         input_request = "Estou com febre"
