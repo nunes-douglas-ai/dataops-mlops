@@ -12,3 +12,6 @@ class AppSettings(BaseSettings):
     mongo_pass: str = "mongo_pass"
     mongo_database_name: str = "covid_app"
     mongo_export_collection_name: str = "requests_staging"
+
+    models_path: str = "../models"
+    model_file_name: str = "classificador-covid.pkl"
