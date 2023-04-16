@@ -4,7 +4,7 @@ from controllers.hello_controller import hello_router
 from controllers.pre_diagnostic_controller import pre_diagnostic_router
 from services.data_exporter import DataExporter
 
-__version__ = "1.2.0"
+__version__ = "1.3.0"
 
 app = FastAPI(
     title="Meu projeto de DataOps e MlOps",

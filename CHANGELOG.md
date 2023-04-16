@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.3.0 (2023-04-16)
+### Feature
+* Add first machine learning model ([#26](https://github.com/nunes-douglas-ai/dataops-mlops/issues/26)) ([`ef9abf9`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/ef9abf9f2be3495329995057cbaac89689e8726f))
+
 ## v1.2.0 (2023-04-08)
 ### Feature
 * Add optional extra_args for data analysis and sample data ([#25](https://github.com/nunes-douglas-ai/dataops-mlops/issues/25)) ([`047c839`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/047c839452af1729a9ed181c69050a1967eef760))
