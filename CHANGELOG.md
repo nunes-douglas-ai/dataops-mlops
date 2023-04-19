@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.4.0 (2023-04-19)
+### Feature
+* Add new MLP model ([#27](https://github.com/nunes-douglas-ai/dataops-mlops/issues/27)) ([`9ea1f2f`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/9ea1f2fa31b2d52b7ac355b55dd6c0df0a1c225f))
+
 ## v1.3.0 (2023-04-16)
 ### Feature
 * Add first machine learning model ([#26](https://github.com/nunes-douglas-ai/dataops-mlops/issues/26)) ([`ef9abf9`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/ef9abf9f2be3495329995057cbaac89689e8726f))
