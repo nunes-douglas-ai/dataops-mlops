@@ -13,5 +13,13 @@ class AppSettings(BaseSettings):
     mongo_database_name: str = "covid_app"
     mongo_export_collection_name: str = "requests_staging"
 
+    train_file: str = "../data/annotated-first-test.csv"
+    text_col: str = "Text"
+    label_col: str = "Expected"
+
+    enable_mlflow: bool = False
+    mlflow_host: str = "http://localhost:5000"
+    mlflow_experiment: str = "dataops-mlops"
+
     models_path: str = "../models"
-    model_file_name: str = "classificador-covid-mlp.pkl"
+    model_file_name: str = "generated-classifier.pkl"

@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from controllers.hello_controller import hello_router
 from controllers.pre_diagnostic_controller import pre_diagnostic_router
 from services.data_exporter import DataExporter
+from utils.version import __version__
 
 __version__ = "1.4.0"
 
