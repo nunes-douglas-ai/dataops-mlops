@@ -21,5 +21,5 @@ class ModelLoader:
                 return mlflow.pyfunc.load_model(model_uri=f"models:/{self.ml_flow_model_name}/{version}")
             return mlflow.pyfunc.load_model(model_uri=f"models:/{self.ml_flow_model_name}/{self.ml_flow_model_stage}")
         except Exception as exc:
-            app_logger.error("Exception trying to load model %s", version)
+            app_logger.exception("Exception trying to load model %s", version)
             raise exc
