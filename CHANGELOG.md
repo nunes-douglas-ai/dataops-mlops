@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v1.5.0 (2023-05-01)
+### Feature
+* Add mlflow integration ([`715036b`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/715036bc9727bc0b86d4a923a7a3d6f378396ad4))
+
+### Fix
+* Fix version ([#29](https://github.com/nunes-douglas-ai/dataops-mlops/issues/29)) ([`38ef824`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/38ef824dfbe45d957a7ac4fb7fc01502fa3d5810))
+
 ## v1.4.0 (2023-04-19)
 ### Feature
 * Add new MLP model ([#27](https://github.com/nunes-douglas-ai/dataops-mlops/issues/27)) ([`9ea1f2f`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/9ea1f2fa31b2d52b7ac355b55dd6c0df0a1c225f))
