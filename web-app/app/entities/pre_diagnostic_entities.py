@@ -13,5 +13,6 @@ class PreDiagnosticRequest(BaseModel):
 class PreDiagnosticResponse(BaseModel):
     name: str
     diagnostic: str
+    version: str
     model_name: str
     model_id: str
