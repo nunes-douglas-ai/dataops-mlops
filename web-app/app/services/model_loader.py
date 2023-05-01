@@ -3,6 +3,7 @@ from cachetools import cached, TTLCache
 from mlflow.pyfunc import PyFuncModel
 
 from configs.app_configs import AppSettings
+from utils.logger import app_logger
 
 
 class ModelLoader:
@@ -15,6 +16,10 @@ class ModelLoader:
 
     @cached(cache=TTLCache(maxsize=32, ttl=60))
     def get_model(self, version=None) -> PyFuncModel:
-        if version is not None:
-            return mlflow.pyfunc.load_model(model_uri=f"models:/{self.ml_flow_model_name}/{version}")
-        return mlflow.pyfunc.load_model(model_uri=f"models:/{self.ml_flow_model_name}/{self.ml_flow_model_stage}")
+        try:
+            if version is not None:
+                return mlflow.pyfunc.load_model(model_uri=f"models:/{self.ml_flow_model_name}/{version}")
+            return mlflow.pyfunc.load_model(model_uri=f"models:/{self.ml_flow_model_name}/{self.ml_flow_model_stage}")
+        except Exception as exc:
+            app_logger.error("Exception trying to load model %s", version)
+            raise exc
