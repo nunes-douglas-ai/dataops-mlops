@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v1.6.0 (2023-05-01)
+### Feature
+* Add app version to response ([#30](https://github.com/nunes-douglas-ai/dataops-mlops/issues/30)) ([`8636937`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/863693793ad0aee6ecda98f9321ef046835c63f0))
+
 ## v1.5.0 (2023-05-01)
 ### Feature
 * Add mlflow integration ([`715036b`](https://github.com/nunes-douglas-ai/dataops-mlops/commit/715036bc9727bc0b86d4a923a7a3d6f378396ad4))
