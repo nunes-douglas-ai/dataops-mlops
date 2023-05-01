@@ -3,6 +3,7 @@ from fastapi import HTTPException
 from configs.app_configs import AppSettings
 from entities.pre_diagnostic_entities import PreDiagnosticResponse
 from services.model_loader import ModelLoader
+from utils.version import __version__
 
 
 class PreDiagnosticService:
@@ -33,6 +34,7 @@ class PreDiagnosticService:
         return PreDiagnosticResponse(
             name=request.name,
             diagnostic=diagnostic,
+            version=__version__,
             model_name=self.model_name,
             model_id=model.metadata.run_id
         )
