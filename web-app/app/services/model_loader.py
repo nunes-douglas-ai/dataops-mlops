@@ -1,19 +1,25 @@
-import os.path
-import pickle
-
-from sklearn.pipeline import Pipeline
+import mlflow
+from cachetools import cached, TTLCache
+from mlflow.pyfunc import PyFuncModel
 
 from configs.app_configs import AppSettings
+from utils.logger import app_logger
 
 
 class ModelLoader:
 
     def __init__(self, app_settings: AppSettings = AppSettings()):
         self.app_settings = app_settings
-        self.models_path = app_settings.models_path
+        self.ml_flow_model_name = app_settings.mlflow_model_name
+        self.ml_flow_model_stage = app_settings.mlflow_model_stage
+        mlflow.set_tracking_uri(app_settings.mlflow_host)
 
-    def get_model(self, model_name) -> Pipeline:
-        model_path = os.path.join(self.models_path, model_name)
-        with open(model_path, 'rb') as model_file:
-            model = pickle.load(model_file)
-        return model
+    @cached(cache=TTLCache(maxsize=32, ttl=60))
+    def get_model(self, version=None) -> PyFuncModel:
+        try:
+            if version is not None:
+                return mlflow.pyfunc.load_model(model_uri=f"models:/{self.ml_flow_model_name}/{version}")
+            return mlflow.pyfunc.load_model(model_uri=f"models:/{self.ml_flow_model_name}/{self.ml_flow_model_stage}")
+        except Exception as exc:
+            app_logger.exception("Exception trying to load model %s", version)
+            raise exc
