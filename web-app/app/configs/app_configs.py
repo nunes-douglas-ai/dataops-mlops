@@ -13,5 +13,6 @@ class AppSettings(BaseSettings):
     mongo_database_name: str = "covid_app"
     mongo_export_collection_name: str = "requests_staging"
 
-    models_path: str = "../models"
-    model_file_name: str = "classificador-covid-mlp.pkl"
+    mlflow_host: str = "http://localhost:5000"
+    mlflow_model_name: str = "dataops-mlops"
+    mlflow_model_stage: str = "Staging"
